@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    .home{width: 100%;}
+    span {
+      color: white;
+    }
+
+    /* ul {
+      margin-left: 200px;
+    } */
+
+    li {
+      padding: 0 10px 0 10px;
+    }
+
+    footer h6 {
+      font-size: 20px;
+      text-align: center;
+    }
+
+    .row {
+      height: 300px;
+      width: 300px;
+      padding:10px ;
+      display: flex;
+      flex-wrap: nowrap;
+    }
+    .offering-item {
+      justify-content: center;
+      margin-left: 30px;
+      padding-inline: 10px;
+    }
+    .heading h2{
+      text-align: center;
+    }
+
+    #footer {
+      margin-top: 250px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top">
+    <img src="https://www.springct.com/assets/ic_logo.svg" alt="">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/"><span>Home</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./products.html"><span>Products</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./technology.html"><span>Technologies</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about.html"><span>About Us</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact.html"><span>Contact Us</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div id="container">
+    <div>
+      <img src="./images/home.png" class="home" alt="">
+    </div>
+  </div>
+  <div class="heading">
+    <h2>Technology Verticals</h2>
+  </div>
+  <div class="row">
+    <div class="offering-item " id="offering1">
+      <img src="./images/webrtc.png" alt="Unified Communication and WebRTC">
+      <div class="tech-verticals">
+        <div>
+          <h4>
+            Unified Communication
+          </h4>
+        </div>
+        <p>
+          High performance and highly scalable collaboration platforms that unify various modes of
+          communication such as voice, video, email, and text messaging in one, & provide seamless experience.
+        </p>
+      </div>
+    </div>
+
+    <div class="offering-item">
+      <img src="./images/iot.png" alt="Internet Of Things">
+      <div class="tech-verticals">
+        <div>
+          <h4>Internet of Things</h4>
+        </div>
+        <p>
+          Advanced solutions for a wide variety of applications ranging from convenience in Home Automation to
+          critical care in Healthcare Systems.Our expertise in security technologies.
+        </p>
+      </div>
+    </div>
+
+    <div class="offering-item">
+      <img src="./images/security.png" alt="Application Security">
+      <div class="tech-verticals">
+        <div>
+          <h4>
+           Information Security
+          </h4>
+        </div>
+        <p>
+          Unified endpoint management solutions for smartphones, tablets, laptops, desktops, and IoT devices
+          along with their data and apps, that increase efficiency of operations.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    <footer>
+      <h6>© 2007-2023 Spring Computing Technologies Pvt. Ltd., All Rights Reserved.</h6>
+    </footer>
+  </div>
+  
+</body>
+
+</html>
